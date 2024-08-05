@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'pntbiz-parkjungha' => 'parkjh@pntbiz.com' }
     s.source           = { :git => 'https://github.com/pntbiz-mobile/PodTEST.git', :tag => s.version.to_s }
-    s.vendored_frameworks = 'incheonAirportMapSDK.xcframework'
+    s.vendored_frameworks = 'IncheonAirportMapSDK.xcframework'
     s.pod_target_xcconfig = {
       'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 armv7 arm64',
       'VALID_ARCHS' => 'x86_64 armv7 arm64',
