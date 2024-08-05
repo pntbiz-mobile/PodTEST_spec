@@ -48,6 +48,6 @@ Pod::Spec.new do |s|
     # s.frameworks = 'UIKit', 'MapKit'
     # s.dependency 'GoogleMaps', '~> 7.3'
     # s.dependency 'Google-Maps-iOS-Utils', '~> 4.0.0'
-    s.dependency 'Alamofire'
+    # s.dependency 'Alamofire'
   end
   
