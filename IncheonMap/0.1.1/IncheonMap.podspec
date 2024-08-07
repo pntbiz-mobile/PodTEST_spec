@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'IncheonMap'
-    s.version          = '0.1.0'
+    s.version          = '0.1.1'
     s.summary          = '인천공항지도 모듈'
   
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,8 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'pntbiz-parkjungha' => 'parkjh@pntbiz.com' }
     s.source           = { :git => 'https://github.com/pntbiz-mobile/PodTEST.git', :tag => s.version.to_s }
-    s.vendored_frameworks = 'IncheonAirportMapSDK.xcframework'
+    # s.vendored_frameworks = 'IncheonAirportMapSDK.xcframework'
+    s.vendored_frameworks = 'IncheonAirportMapSDK.framework'
     s.pod_target_xcconfig = {
       'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 armv7 arm64',
       'VALID_ARCHS' => 'x86_64 armv7 arm64',
@@ -46,8 +47,8 @@ Pod::Spec.new do |s|
   
     # s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'
-    # s.dependency 'GoogleMaps', '~> 7.3'
-    # s.dependency 'Google-Maps-iOS-Utils', '~> 4.0.0'
+    s.dependency 'GoogleMaps', '~> 7.3'
+    s.dependency 'Google-Maps-iOS-Utils', '~> 4.0.0'
     # s.dependency 'Alamofire'
   end
   
