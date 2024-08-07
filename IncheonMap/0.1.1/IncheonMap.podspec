@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
     # s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'GoogleMaps', '~> 8.4.0'
-    s.dependency 'Google-Maps-iOS-Utils', '~> 4.0.0'
+    s.dependency 'Google-Maps-iOS-Utils', '~> 5.0.0'
     # s.dependency 'Alamofire'
   end
   
