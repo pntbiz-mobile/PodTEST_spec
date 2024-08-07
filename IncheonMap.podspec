@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'IncheonMap'
-    s.version          = '0.1.0'
+    s.version          = '0.1.1'
     s.summary          = '인천공항지도 모듈'
   
   # This description is used to generate tags and improve search results.
